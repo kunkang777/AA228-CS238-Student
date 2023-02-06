@@ -2,6 +2,7 @@ import sys
 
 import networkx
 
+G = networkx.DiGraph();
 
 def write_gph(dag, idx2names, filename):
     with open(filename, 'w') as f:
